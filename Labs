@@ -928,14 +928,11 @@ Task 1: Implementing Ansible Roles
 cd ~/
 
 # Lets uninstall httpd. After that, we will use ansible role to install it.
-$ ansible-playbook /home/ec2-user/ansible-labs/uninstall-apache-pb.yml (Please provide the correct path name)
-
 # Install tree. A tree is a recursive directory listing program that produces a depth-indented listing of files. 
-
 $ sudo yum install tree -y
 
 # You can view your home directory structure in tree format with below command tree 
-$ tree /home/ec2-user/ansible-labs
+$ tree /home/ec2-user/
 
 # Lets create the code for Role labs
 $ cd ~/
@@ -1026,7 +1023,8 @@ $ tree
 
 #Now change the directory to ansible directory and create the playbook as implement-roles.yml
 
-$ cd ..
+$ cd cd role-labs/
+
 $ vi implement-roles.yml
 
 # Add the given content, by pressing "INSERT".
